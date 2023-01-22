@@ -11,7 +11,7 @@ myName();
 
                                 <----// both examples are ways to write functions.
 
-function myName(){
+function myName(name){
     console.log(name);
 }
 myName("Jordan"); //
