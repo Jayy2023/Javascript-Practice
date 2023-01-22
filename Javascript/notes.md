@@ -16,5 +16,18 @@ function myName(name){
 }
 myName("Jordan"); //
 
+```
 
+# Javascript-Practice
+
+**objects**
+objects are collections of properties, properties can also be functions.
+
+```
+const Person = {
+    name: "Jordan",
+    age: "25,
+    occupation: "Programmer"
+};
+document.write(Person.occupation);
 ```
