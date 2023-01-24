@@ -24,6 +24,14 @@ const Person = {
 };
 document.write(Person.occupation);
 
+document.write("<hr/>");
+
+
+
+
+
+
+
 
 
 
