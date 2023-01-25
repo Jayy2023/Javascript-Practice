@@ -31,3 +31,10 @@ const Person = {
 };
 document.write(Person.occupation);
 ```
+
+# Javascript-Practice
+
+**more-functions**
+```
+
+```
