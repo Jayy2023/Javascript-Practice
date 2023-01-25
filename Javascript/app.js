@@ -1,4 +1,4 @@
-
+/*
 let myName1 = "Jordan";
 function name (){
     document.write("Hey " +  myName1 + " keep going");
@@ -25,6 +25,7 @@ const Person = {
 document.write(Person.occupation);
 
 document.write("<hr/>");
+*/
 
 /*const shoppingList = ["Apples", "Milk", "Eggs"];
 console.log(shoppingList);
@@ -45,6 +46,7 @@ console.log(shoppingList);
 //console.log(budget[0].coffee);
 console.log(budget);
 */
+/*
 const friends = [
     {
         first: "Nevaeh",
@@ -72,17 +74,18 @@ const friends = [
 //console.log(friends[0].age);
 //console.log(friends[2].hobbies);
 //console.log(friends[1].first);
+*/
 
-
-const rubixCube = {
+/*const rubixCube = {
     colors : ["Red", "Orange", "Yellow", "Green", "Blue", "Purple"],
     isCube: true,
     cubeSize: 10,  
 
 };
 //console.log(rubixCube.colors);
+*/
 
-const artist = [
+/*const artist = [
     {
         name: "Michael Jackson",
         genre: "pop",
@@ -124,6 +127,23 @@ const artist = [
         charities: "The Wonder Foundation"
     },
 ];
+*/
+//Functions
+/*function handleClick(element){
+   element.innerHTML = "Clicked";
+}
+*/
+let button = document.getElementById("btn");
+button.addEventListener("click", function(){
+    alert("Clicked");
+});
+/*
+function multiply(num1, num2){
+    document.write(num1 * num2);
+
+}
+multiply(2, 3);
+*/
 
 
 
