@@ -55,4 +55,5 @@ console.log(fruit.length);
 console.log(fruit.indexOf("pl"));
 console.log(fruit.slice(2, 5));
 */
+//practice
 
