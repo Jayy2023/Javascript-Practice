@@ -133,10 +133,15 @@ const friends = [
    element.innerHTML = "Clicked";
 }
 */
+/*
 let button = document.getElementById("btn");
 button.addEventListener("click", function(){
     alert("Clicked");
 });
+*/
+
+/*
+function add(num1, num2){
 /*
 function multiply(num1, num2){
     document.write(num1 * num2);
@@ -144,16 +149,98 @@ function multiply(num1, num2){
 }
 multiply(2, 3);
 */
+/*
+function greet(name, lastName){
+    document.write("Hello " + name + " " + lastName);
+}
+greet("Jordan", "Couch");
+*/
+ /*function hello(){
+    if(document.querySelector("h1").innerHTML === 'Hello!'){
+        document.querySelector("h1").innerHTML = "Goodbye!";
+    } else {
+        document.querySelector("h1").innerHTML = "Hello!";
+    }    
 
+}
+*/
 
-
-
-
-
-
-
-
-
-
+const months = [
+    {
+        name: "January",
+        numberOfDays: 31,
+        orderOfMonth: 1,
+        monthAbv: "Jan",
+    },
+    {
+        name: "February",
+        numberOfDays: 28,
+        orderOfMonth: 2,
+        monthAbv: "Feb"
+    },
+    {
+        name: "March",
+        numberOfDays: 31,
+        orderOfMonth: 3,
+        monthAbv: "Mar"
+    },
+    {
+        name: "April",
+        numberOfDays: 30,
+        orderOfMonth: 4,
+        monthAbv: "Apr"
+    },
+    {
+        name: "May",
+        numberOfDays: 31,
+        orderOfMonth: 5,
+        monthAbv: "May"
+    },
+    {
+        name: "June",
+        numberOfDays: 30,
+        orderOfMonth: 6,
+        monthAbv: "Jun"
+    },
+    {
+        name: "July",
+        numberOfDays: 31,
+        orderOfMonth: 7,
+        monthAbv: "Jul"
+    },
+    {
+        name: "August",
+        numberOfDays: 31,
+        orderOfMonth: 8,
+        monthAbv: "Aug"
+    },
+    {
+        name: "September",
+        numberOfDays: 30,
+        orderOfMonth: 9,
+        monthAbv: "Sep"
+    },
+    {
+        name: "October",
+        numberOfDays: 31,
+        orderOfMonth: 10,
+        monthAbv: "Oct"
+    },
+    {
+        name: "November",
+        numberOfDays: 30,
+        orderOfMonth: 11,
+        monthAbv: "Nov"
+    },
+    {
+        name: "December",
+        numberOfDays: 31,
+        orderOfMonth: 12,
+        monthAbv: "Dec"
+    }
+];
+console.log(months[8].numberOfDays);
+console.log(months[1].monthAbv);
+console.log(months[3].name);
 
 
