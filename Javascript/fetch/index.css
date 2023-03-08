@@ -1,0 +1,22 @@
+h1{
+    color: white;
+    text-align: center;
+}
+body{
+    background-color: coral;
+}
+.output{
+    display: flex;
+    flex: 1;
+    height: 100px;
+    justify-content: space-between;
+    
+}
+.button-container{
+    text-align:  center;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+  
+}

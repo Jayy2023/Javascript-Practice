@@ -1,0 +1,12 @@
+body{
+    background-color: red;
+    
+}
+.output{
+    display: flex;
+    align-items: space-between;
+    height: 100px;
+}
+button{
+   justify-content: center;
+}

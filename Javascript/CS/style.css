@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container-1{
+    height: 175vh;
+    width: 100%;
+    background-image: url(images/russ4.png);
+    background-size: cover;
+    background-position: center;
+   
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.logo{
+    color: orangered;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 30px;
+}
+nav ul li a{
+    color: orangered;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: blue;
+    transition: 0.3s;
+}
+button{
+    border: none;
+    background: orangered;
+    padding: 12px 20px;
+    border-radius: 20px;
+}
+button a{
+    color: white;
+}
+.container-2{
+    
+}
+.okc{
+ padding: 20px;
+ color: orangered;
+  
+}
+@media screen and (min-width: 576px) {
+    button::before{
+        
+    }
+}
+

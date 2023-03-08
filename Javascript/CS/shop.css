@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-1{
+    height: 100vh;
+    width: 100%;
+  background-image: url(images/goat.JPG);
+  background-size: cover;
+  background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.logo{
+    color: white;
+}
+nav ul li a{
+    color: #fff;
+}
+nav ul li a:hover{
+    color: orangered;
+    transition: 0.3s;
+}
+.jersey{
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: center;
+}
+h1{
+    padding: 30px;
+    padding-bottom: 50px;
+    color: #fff;
+}
+button{
+border: none;
+background: orangered;
+padding: 12px 20px;
+border-radius: 20px;
+}
+button a{
+    color: #fff
+}
+button a:hover{
+    color: blue;
+    transition: 0.3s;
+}
+
+

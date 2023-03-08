@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <link rel="stylesheet" href="jack2.css">
+</head>
+<body>
+    <div class="logo">
+    <h1>BLACKJACK</h1>
+    <hr>
+</div>
+    <div class="container">
+   <h2>Dealer: <span id="dealer-sum"></span></h2>
+    <div id="dealer-cards" class="dealer-cards">
+       <img id="hidden" src="./cards/back.png" alt="">
+    </div>
+
+
+
+    <h2>You: <span id="your-sum"></span></h2>
+    <div class="your-cards" id="your-cards"></div>
+    <br>
+    <button class="deal" id="deal">Deal</button>
+    <button class="hit" id="hit">Hit</button>
+    <button class="stay" id="stay">Stay</button>
+    <p id="results"></p>
+</div>
+    <script src="jack2.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+.grandparent{
+    display: flex;
+    color: blue;
+}
+.parent{
+    color: coral;
+}
+.child{
+    color: purple
+}

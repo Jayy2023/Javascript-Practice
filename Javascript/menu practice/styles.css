@@ -1,0 +1,28 @@
+.app {
+    font-family: sans-serif;
+    font-size: 1.25rem;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 15px;
+    display: flex;
+  }
+  
+  a{
+    margin: 6px ;
+    padding: 8px;
+    flex-grow: 2;
+  }
+  .nav{
+    flex-grow: 1;
+  }
+
+  
+  a:hover {
+    color: darkblue;
+    cursor: pointer;
+  }
+  
+  .body {
+    font-size: 2rem;
+    padding: 15px;
+  }
